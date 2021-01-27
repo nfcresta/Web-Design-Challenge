@@ -1,0 +1,123 @@
+/* Body */
+body{
+    background-color: #90a6b8; 
+  }
+  /* Navbar */
+  .navbar{
+    max-height: 60px; 
+  }
+  .navigation .navbar-brand{
+    color: grey; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .navbar{
+    background-color: rgb(46, 46, 46)6, 46, 46); 
+    font-size: 15px; 
+  }
+
+  .active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7; 
+  }
+  .dropdown-item{
+    color: #6D8092; 
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:#E7E7E7; 
+  }
+  
+  a{
+    color: #6D8092;
+    font-size: 15px; 
+  }
+  .nav-link:hover{
+    background-color:#929191;
+    border-radius: 3px;
+   }
+  
+  .navbar-brand:hover{
+  color: rgb(175, 175, 175);
+  }
+  
+  /* Images */
+  img{
+    width:100%;
+    height:100%; 
+  }
+  .active, .panel:hover{
+    border-color:#2274b8;
+    border-style: groove; 
+    
+  }
+  .vizualization{
+    width:50%;
+    height:50%;
+  }
+  
+  /* Title Class  */
+  .title{
+    color: #2274b8;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+  }
+  /* Paragraph Element */
+  p{
+  color: #484b4e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px; 
+  }
+  
+  /* h5 Element */
+  h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  /* Box Class */
+  .box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+  
+  }
+  /* Table */
+  .table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+  }
+
+  /* Media Queries */
+  @media(max-width: 950px){
+  .navbar-expand-lg{
+  background-color:rgb(46, 46, 46)6, 46, 46) !important;
+  }
+  
+  .navbar{
+    max-height: none; 
+    padding: inherit;
+  }
+  
+  .navbar div{
+    margin: inherit; 
+    background-color: white;  
+  }
+  
+  .navbar-brand{
+    padding: 10px !important; 
+  }
+  
+  button{
+    margin-right: 30px; 
+  }
+ 
+  button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    }
+  }
