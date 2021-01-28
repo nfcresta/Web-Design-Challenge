@@ -82,10 +82,13 @@ body{
   /* h5 Element */
   h5{
     text-align: center;
+    color: #456b8a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
   }
   
   /* Box Class */
-  .box {
+  .box {  
     margin-top: 60px; 
     margin-bottom: 62px; 
     padding: 10px 20px 15px; 
@@ -127,8 +130,8 @@ body{
   button:focus {
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
-    
     }
-  }
+ 
+}
 
   
