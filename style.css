@@ -100,7 +100,7 @@ body{
   /* Table */
   .table{
     font-size: 15px; 
-    border-top-color: white !important; 
+    border-top-color: white; 
   }
   
   /* Media Queries */
@@ -131,7 +131,19 @@ body{
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
     }
+
+  .box {
+      margin: 0px;
+      border-radius: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
+  body {
+      background-color: white;
+  }
  
+
 }
 
   
