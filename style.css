@@ -105,7 +105,7 @@ body{
   }
   
   /* Media Queries */
-  @media(max-width: 950px){
+  @media(max-width: 900px){
   .navbar-expand-lg{
   background-color: white !important;
   }
